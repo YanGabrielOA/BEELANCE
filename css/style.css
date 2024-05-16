@@ -122,3 +122,11 @@ body{
     position: absolute;
     -webkit-user-drag: none;
 }
+#iconb{
+    width: 30px;
+    height: 30px;
+    
+}
+.icon:hover{
+    cursor:pointer;
+}
