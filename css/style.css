@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(247, 239, 174);
+    
+    
+}
+#head{
+ background-color: #FFC700;
+ width: auto;
+ height: 100px;
+ position: relative;
+}
+#right{
+    
+    right: 10px;
+    height: 100px;
+    width: auto;
+    position: absolute;
+   align-content: center;
+   align-items: center;
+   display: flex;
+}
+#left{
+    
+    left: 10px;
+    height: 100px;
+    width: 190px;
+    position: absolute;
+}
+#mid{
+    
+    left: 25%;
+    height: 100px;
+    width: 390px;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    display: flex;
+}
+#banner{
+    width: auto;
+    height: 300px;
+    border-color: red;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+}
+#botaol{
+    width: 100px;
+    height: 35px;
+    border:2px;
+    margin-right: 10px;
+ 
+    border-color: black;
+    border-style: solid;
+    background-color: #FFDC62;
+    color:rgb(53, 51, 51);
+    position: relative;
+    align-content: center;
+    text-align: center;
+
+    
+
+}
+#botaos{
+    width: 100px;
+    height: 35px;
+    border:2px;
+    margin-left:10px;
+    margin-right: 10px;
+    
+    border-color: black;
+    border-style: solid;
+    background-color: #FFDC62;
+    color:rgb(53, 51, 51);
+    position: relative;
+    align-items: center;
+    align-content:center ;
+    text-align: center;
+    
+    
+
+}
+.icon{ 
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+
+}
+.icon::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+#pesq{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 4px,solid,black;    
+}
+#logoR{
+    margin-left: 20px;
+    width: 103px;
+    height: 100px;
+    position: absolute;
+    -webkit-user-drag: none;
+}
